@@ -18,12 +18,7 @@ Field order:
     19 [mixed museum display (e.g., F/A-18, F-14, A-4)], 20 [static museum aircraft (e.g., F/A-18, F-14)]
 11. visibility: 1 [good], 2 [moderate], 3 [poor]
 12. surrounding_facilities: 0 [unknown], 1 [dry dock], 2 [naval base], 3 [ship exhibition], 4 [open sea]
-13. port: 0 [unknown], 1 [Alameda], 2 [Alexandria], 3 [Bremerton], 4 [Busan], 5 [Changi], 6 [Charleston], 7 [Corpus Christi],
-    8 [Dalian], 9 [Devonport], 10 [Everett], 11 [Jinhae], 12 [Karwar], 13 [Kochi], 14 [Kure], 15 [Maizuru], 16 [Mayport],
-    17 [Mumbai], 18 [Murmansk], 19 [Newport News], 20 [Norfolk], 21 [Pearl Harbor], 22 [Philadelphia], 23 [Portsmouth],
-    24 [Qingdao], 25 [Rio de Janeiro], 26 [San Diego], 27 [Sanya], 28 [Sasebo], 29 [Sattahip], 30 [Seattle], 31 [Severomorsk],
-    32 [Shenzhen], 33 [Taranto], 34 [Tianjin], 35 [Toulon], 36 [Yokosuka]
-14-19. Top 3 ship categories and their confidences, format:
+13-18. Top 3 ship categories and their confidences, format:
     ship_category_1, confidence_1, ship_category_2, confidence_2, ship_category_3, confidence_3
     Categories:
     1 [US-CV10], 2 [US-CV12], 3 [US-CV16], 4 [US-CV41], 5 [US-CVN68], 6 [US-CVN69], 7 [US-CVN70], 8 [US-CVN71],
@@ -48,7 +43,6 @@ Example input (for your understanding only):
   "embarked_aircraft_model": 0,
   "visibility": 1,
   "surrounding_facilities": 2,
-  "port": 26,
   "top_3_categories": [
     {"ship_category": 44, "confidence": 0.45},
     {"ship_category": 48, "confidence": 0.30},
@@ -56,5 +50,5 @@ Example input (for your understanding only):
   ]
 }
 Example output:
-[1, 2, 255, 32, 0, 0, 2, 12, 2, 0, 1, 2, 26, 44, 0.45, 48, 0.30, 46, 0.25]
+[1, 2, 255, 32, 0, 0, 2, 12, 2, 0, 1, 2, 44, 0.45, 48, 0.30, 46, 0.25]
 Your task: Given a text describing a ship, extract and output the list as above.
