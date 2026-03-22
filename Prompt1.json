@@ -73,14 +73,6 @@ Output format:
         // surrounding_facilities: naval base
 )
 (vessel,
-    geographic_location,
-        country: [country name or unknown],
-        port: [port name or unknown]
-        // Example:
-        // country: Italy
-        // port: Taranto
-)
-(vessel,
     overall_assessment_top3,
         identification_1: [ship_id], confidence_1: [0.00–1.00],
         identification_2: [ship_id], confidence_2: [0.00–1.00],
