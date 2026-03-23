@@ -50,7 +50,7 @@ Output format:
 )
 (vessel,
     detailed_configuration,
-        hull_number_location: [e.g., bow | stern | starboard | unknown],
+        hull_number_position: [e.g., bow | stern | starboard | unknown],
         hull_number: [visible number | unknown],
         number_of_elevators: [integer | unknown],
         elevator_location: [e.g., forward of island, left side | forward of island, right side | unknown | or other valid descriptions]
