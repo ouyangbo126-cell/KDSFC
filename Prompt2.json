@@ -18,17 +18,6 @@ Field order:
     19 [mixed museum display (e.g., F/A-18, F-14, A-4)], 20 [static museum aircraft (e.g., F/A-18, F-14)]
 11. visibility: 1 [good], 2 [moderate], 3 [poor]
 12. surrounding_facilities: 0 [unknown], 1 [dry dock], 2 [naval base], 3 [ship exhibition], 4 [open sea]
-13-18. Top 3 ship categories and their confidences, format:
-    ship_category_1, confidence_1, ship_category_2, confidence_2, ship_category_3, confidence_3
-    Categories:
-    1 [US-CV10], 2 [US-CV12], 3 [US-CV16], 4 [US-CV41], 5 [US-CVN68], 6 [US-CVN69], 7 [US-CVN70], 8 [US-CVN71],
-    9 [US-CVN72], 10 [US-CVN73], 11 [US-CVN74], 12 [US-CVN75], 13 [US-CVN76], 14 [US-CVN77], 15 [US-CVN78], 16 [US-CVN79],
-    17 [US-CV59], 18 [US-CV61], 19 [US-CV62], 20 [US-CV63], 21 [US-CV64], 22 [US-CV65], 23 [US-CV67], 24 [CN-CV16],
-    25 [CN-CV17], 26 [CN-CV_Minsk], 27 [R33], 28 [IN-IAC1], 29 [IN-R11], 30 [UK-R06], 31 [UK-R07], 32 [UK-R08],
-    33 [UK-R09], 34 [FR-R91], 35 [IT-CV551], 36 [IT-CV550], 37 [TH-CV911], 38 [RU-CV063], 39 [BR-A11], 40 [BR-A12],
-    41 [IN-IW], 42 [UK/BR-L12], 43 [US-LHD1], 44 [US-LHD2], 45 [US-LHD3], 46 [US-LHD4], 47 [US-LHD5], 48 [US-LHD7],
-    49 [US-LHD8], 50 [US-LHA6], 51 [EG-L1010], 52 [EG-L1020], 53 [FR-L9015], 54 [AU-L02], 55 [KR-LPH6111],
-    56 [JP-DDH183], 57 [JP-DDH184], 58 [JP-DDH181], 59 [JP-DDH182], 60 [BR-A140]
 Example input (for your understanding only):
 {
   "deck_type": 1,
