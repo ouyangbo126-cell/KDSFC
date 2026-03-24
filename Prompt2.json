@@ -42,13 +42,8 @@ Example input (for your understanding only):
   "helicopter_platform_distribution": 2,
   "embarked_aircraft_model": 0,
   "visibility": 1,
-  "surrounding_facilities": 2,
-  "top_3_categories": [
-    {"ship_category": 44, "confidence": 0.45},
-    {"ship_category": 48, "confidence": 0.30},
-    {"ship_category": 46, "confidence": 0.25}
-  ]
+  "surrounding_facilities": 2
 }
 Example output:
-[1, 2, 255, 32, 0, 0, 2, 12, 2, 0, 1, 2, 44, 0.45, 48, 0.30, 46, 0.25]
+[1, 2, 255, 32, 0, 0, 2, 12, 2, 0, 1, 2]
 Your task: Given a text describing a ship, extract and output the list as above.
