@@ -72,13 +72,3 @@ Output format:
         // cloud_coverage: none
         // surrounding_facilities: naval base
 )
-(vessel,
-    overall_assessment_top3,
-        identification_1: [ship_id], confidence_1: [0.00–1.00],
-        identification_2: [ship_id], confidence_2: [0.00–1.00],
-        identification_3: [ship_id], confidence_3: [0.00–1.00]
-        // Example:
-        // identification_1: [Aircraft Carriers][Essex class][US-CV10], confidence_1: 0.55
-        // identification_2: [Aircraft Carriers][Kitty Hawk class][US-CV63], confidence_2: 0.35
-        // identification_3: [Amphibious Assault][Wasp class][US-LHD1], confidence_3: 0.10
-)
